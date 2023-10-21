@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../New-Movie-Deck-Project"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "NewsFeed-Project"
+	}
+}

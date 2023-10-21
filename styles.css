@@ -1,1 +1,135 @@
 
+body{
+    background-color: rgb(26, 25, 25);
+  
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 300px;
+    width: 600px;
+    margin-left: 400px;
+    padding: 10px;
+    font-weight: bold;
+}
+.container h2{
+    text-align: center;
+}
+.container h3{
+    text-align: center;
+   font-size: 30px;
+   font-family: "Arial", sans-serif;
+}
+.innercont h1{
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    margin-left: 30%;
+    margin-top: 10px;
+    width: 250px;
+}
+.innercont{
+    background-color: black;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    height: 150px;
+}
+.dashboard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;    
+}
+.dashboard button{
+    height: 40px;
+    width: 250px;
+    border-radius: 6px;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 400px;
+    padding-top: 150px;
+}
+.image{
+    width: 70px;
+    height: 70px;
+}
+.headSave{
+    max-height: 100%;
+    max-width: 100%;
+    background-color: black;
+    padding: 30px;
+    border-radius: 10px;
+}
+#newsFeed{
+    border: none;
+    font-weight: bold;
+    font-size: 25px;   
+}
+#news{
+    border: none;
+    border-radius: 6px;
+    font-size: 25px;
+    font-weight: bold;  
+    background-color: yellow;
+}
+.catBtn{
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;  
+    background-color: yellow;
+}
+.save-page-div{
+background-color: white;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    /* width: 100%; */
+}
+#cardList{
+    list-style-type: none;
+    padding: 20px;    
+}
+.list-item{
+    max-width: 100%;
+    background-color: rgb(208, 211, 211); 
+    border: 1px solid black;  
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#author{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+#cat{
+    text-transform: uppercase;
+    font-weight: bold;
+    position: absolute;
+    left: 1250px;
+    font-size: 15px;
+}
+#favBtn{
+    position: relative;
+    left: 1400px;
+}
+.list-item a{
+    text-decoration: none;
+    color: rgb(9, 9, 242);    
+}
+.list-item p{
+   font-size: 20px;
+}
