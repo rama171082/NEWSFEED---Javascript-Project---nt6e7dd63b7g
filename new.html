@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MY NEWSFEED SAVED NEWS</title>  
+    <title>NEW NEWS</title>  
 
-    <script src="./App.js" defer></script>   
+ 
   
     <link rel="stylesheet" href="./styles.css"/>
     <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arial&effect=outline"> -->
@@ -15,8 +15,8 @@
     <div class="save-page-div">
       <div class="headSave">
         <button id="newsFeed">MY NEWSFEED</button>
-        <button id="news">NEW NEWS</button>
-        <p><button class ="catBtn">SELECT CATEGORY</button></p>
+        <button id="news" onclick="fetchNews()">NEW NEWS</button>
+        <p><button class ="catBtn selCat">SELECT CATEGORY</button></p>
         <p><button class ="catBtn" id="busi">BUSINESS</button>
           <button class ="catBtn" id="all">ALL</button>
           <button class ="catBtn" id="sports">SPORTS</button>
@@ -32,4 +32,5 @@
         <ul id="cardList"></ul>       
       </div>
       </div>
+      <script src="./new.js" defer></script>   
   </body>

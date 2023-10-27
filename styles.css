@@ -56,7 +56,7 @@ body{
     flex-direction: column;
     color: white;
     padding-left: 400px;
-    padding-top: 150px;
+    padding-top: 100px;
 }
 .image{
     width: 70px;
@@ -125,6 +125,13 @@ background-color: white;
 #favBtn{
     position: relative;
     left: 1400px;
+    font-size: 20px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+#favBtn.liked{
+    color: red;
 }
 .list-item a{
     text-decoration: none;
@@ -132,4 +139,10 @@ background-color: white;
 }
 .list-item p{
    font-size: 20px;
+}
+button{
+    cursor: pointer;
+}
+.selCat{
+    cursor: none;
 }
