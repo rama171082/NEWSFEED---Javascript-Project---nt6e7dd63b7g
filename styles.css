@@ -67,7 +67,7 @@ body{
     max-width: 100%;
     background-color: black;
     padding: 30px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 #newsFeed{
     border: none;
@@ -145,4 +145,7 @@ button{
 }
 .selCat{
     cursor: none;
+}
+.highlighted{
+    background-color: chocolate;
 }
